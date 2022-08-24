@@ -1,0 +1,23 @@
+#calculadora{
+    margin: auto;
+    width: 400px;
+}
+
+#resultado{
+    width: 135px;
+    background-color: white;
+    height: 20px;
+    border-style: solid;
+}
+.botao{
+  padding: 10px;
+}
+.botao.botaoigual{
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+.botao.botaozero{
+    padding-right: 40%;
+    padding-left: 40%;
+  
+}
