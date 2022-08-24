@@ -1,23 +1,53 @@
+h1{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+}
 #calculadora{
     margin: auto;
-    width: 400px;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    max-width: 300px;
+    min-width: 300px;
+    background-color:  #045FDB;
+    box-shadow: 10px 5px 20px black;
+    border-radius: 10px;
 }
+#botoes {
+    margin-left: 42px;
+    width: 130px;
 
+}
 #resultado{
-    width: 135px;
+    width: 210px;
     background-color: white;
     height: 20px;
-    border-style: solid;
+    border-style: groove;
 }
+
 .botao{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
   padding: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  color: white;
 }
+.botao:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
 .botao.botaoigual{
     padding-top: 100%;
     padding-bottom: 100%;
 }
+
 .botao.botaozero{
-    padding-right: 40%;
+    padding-right: 57%;
     padding-left: 40%;
   
 }
